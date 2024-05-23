@@ -52,4 +52,7 @@ To https://github.com/LeeBaekhui/git_practice.git
 
 C:\Users\admin\vercel-demo>
 
-로컬 저장소에서 업로드
+로컬 저장소에서 원격 저장소로 업로드
+1. git add .
+2. git commit -m "메시지"
+3. git push oringin main 
