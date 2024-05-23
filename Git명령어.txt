@@ -1,0 +1,53 @@
+mkdir vercel-demo
+cd vercel-demo
+git init
+git init
+Initialized empty Git repository in C:/Users/admin/vercel-demo/.git/
+
+C:\Users\admin\vercel-demo>git remote add https://github.com/LeeBaekhui/git_practice.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\admin\vercel-demo>git remote add origin https://github.com/LeeBaekhui/git_practice.git
+
+C:\Users\admin\vercel-demo>git remote -v
+origin  https://github.com/LeeBaekhui/git_practice.git (fetch)
+origin  https://github.com/LeeBaekhui/git_practice.git (push)
+
+C:\Users\admin\vercel-demo>git add .
+
+C:\Users\admin\vercel-demo>git commit -m "메시지 확인"
+[master (root-commit) 234b629] 메시지 확인
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\355\214\214\354\235\274\353\263\264\354\235\264\353\202\230.txt.txt"
+
+C:\Users\admin\vercel-demo>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LeeBaekhui/git_practice.git'
+
+C:\Users\admin\vercel-demo>git branch -m main
+
+C:\Users\admin\vercel-demo>git branch
+* main
+
+C:\Users\admin\vercel-demo>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 232 bytes | 232.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LeeBaekhui/git_practice.git
+ * [new branch]      main -> main
+
+C:\Users\admin\vercel-demo>
