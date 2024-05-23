@@ -51,3 +51,5 @@ To https://github.com/LeeBaekhui/git_practice.git
  * [new branch]      main -> main
 
 C:\Users\admin\vercel-demo>
+
+로컬 저장소에서 업로드
